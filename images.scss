@@ -1,0 +1,159 @@
+.img_block{
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+
+.fone1{
+    z-index: -1;
+    top: -215px;
+    left: -652px;
+    animation: fone1_anim 12s ease-in-out infinite alternate;
+}
+@keyframes fone1_anim {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(300px,80px);
+    }
+}
+.fone2{
+    z-index: -1;
+    top: -238px;
+    left: -163px;
+    transform: rotate(10deg);
+    animation: fone2_anim 16s ease-in-out infinite alternate;
+}
+@keyframes fone2_anim {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-200px,100px);
+    }
+}
+.headphones{
+    z-index: 2;
+    top: -84px;
+    left: 125px;
+    animation: headphones_anim 8s ease-in-out infinite alternate;
+}
+@keyframes headphones_anim {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-20px,-120px);
+    }
+}
+.star1{
+    left: -188px;
+    top: -275px;
+    z-index: 2;
+    animation: star1_anim 10s ease-in-out infinite alternate;
+    @media (max-height: 600px) {
+        left: -71px;
+        top: 81px;
+    }
+    svg{
+        width: 57px;
+        height: 57px;
+    }
+}
+@keyframes star1_anim {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(20px,30px);
+    }
+}
+.star2{
+    left: 79px;
+    top: -348px;
+    z-index: 2;
+    animation: star2_anim 14s ease-in-out infinite alternate;
+    @media (max-height: 600px) {
+        left: -312px;
+        top: -127px;
+    }
+    svg{
+        width: 88px;
+        height: 88px;
+    }
+}
+@keyframes star2_anim {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(-25px,10px);
+    }
+}
+.star3{
+    left: 114px;
+    top: 170px;
+    z-index: 3;
+    transform: rotate(30deg);
+    animation: star3_anim 16s ease-in-out infinite alternate;
+    @media (max-height: 600px) {
+        left: 301px;
+        top: 42px;
+    }
+    svg{
+        width: 110px;
+        height: 110px;
+    }
+}
+@keyframes star3_anim {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(40px,-15px);
+    }
+}
+.star4{
+    left: 98px;
+    top: 70px;
+    z-index: 3;
+    animation: star4_anim 19s ease-in-out infinite alternate;
+    svg{
+        width: 50px;
+        height: 50px;
+    }
+}
+@keyframes star4_anim {
+    0%{
+        transform: translate(0,0);
+    }
+    100%{
+        transform: translate(10px,-45px);
+    }
+}
+.dot1{
+    left: -214px;
+    top: -293px;
+}
+.dot2{
+    left: 7px;
+    top: -361px;
+}
+.dot3{
+    left: 139px;
+    top: -287px;
+}
+.dot4{
+    left: 77px;
+    top: 59px;
+    z-index: 3;
+}
+.dot5{
+    left: 102px;
+    top: -1px;
+    z-index: 3;
+}
